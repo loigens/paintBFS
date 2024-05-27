@@ -1,4 +1,4 @@
-# PaintBFS
+# PaintBFS: SystemVerilog Implementation of Paint with Path-Finding Capabilities
 
 An FPGA paint program with the ability to find the shortest path.
 
