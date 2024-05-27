@@ -5,6 +5,8 @@ An FPGA paint program with the ability to find the shortest path.
 ## Description
 This program allows user to use a mouse and draw a 8 by 8 pixel with support up to 61 colors on a 512 by 480 screen. To change color, either use the reserved color's key code or press `Enter` to cycle through the various colors. User can also use the reserved color to draw a starting and ending point on the screen, for which the user can run it through the press of a button to draw the shortest path between the two pixels. If found, the shortest path will be drawn on the screen with a light-blue tint.
 
+Further description can be found in `PaintBFS_Report.pdf`.
+
 ## How to Use
 The code has already been compiled. One only need to program it to the FPGA, and run the software code provided in the folder `software` to provide keyboard support. Note that since the NIOS II processor is used, then this program is limited to only Intel's Altera FPGA only.
 
