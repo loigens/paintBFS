@@ -9,14 +9,14 @@ This program allows user to use a mouse and draw a 8 by 8 pixel with support up 
 The code has already been compiled. One only need to program it to the FPGA, and run the software code provided in the folder `software` to provide keyboard support. Note that since the NIOS II processor is used, then this program is limited to only Intel's Altera FPGA only.
 
 ## Controls
-# Mouse controls
+### Mouse controls
 1. Left mouse button: Draw the selected color.
 2. Right mouse button: Erase colors.
-# Keyboard controls
+### Keyboard controls
 1. `1` button: Draw the starting point.
 2. `2` button: Draw the ending point.
 3. `Enter`: Cycle to the next color (shown on the hex display).
-# Button Controls
+### Button Controls
 1. `KEY[1]`: Start the path-finding algorithm.
 
 ## Limitations
